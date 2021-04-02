@@ -2,13 +2,24 @@
   "name": "json-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js"
+    "start": "json-server --watch db.json --port 9000"
   },
   "dependencies": {
-    "json-server": "^0.16.1"
+    "json-server": "^0.16.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donut5896/webapp-api.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Donut5896/webapp-api/issues"
+  },
+  "homepage": "https://github.com/Donut5896/webapp-api#readme"
 }
